@@ -1,0 +1,25 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Image Slider using ViewPager2 -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/animalImageSlider"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="30dp" />
+
+    <!-- Animal Information Display -->
+    <TextView
+        android:id="@+id/animalInfoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:padding="16dp"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

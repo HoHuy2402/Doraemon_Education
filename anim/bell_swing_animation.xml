@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:repeatCount="3"
+    android:repeatMode="reverse">
+
+    <!-- Rotate to the right -->
+    <rotate
+        android:fromDegrees="0"
+        android:toDegrees="20"
+        android:pivotX="50%"
+        android:pivotY="0%"
+        android:duration="200" /> <!-- Increased to slow down -->
+
+    <!-- Rotate back to the left -->
+    <rotate
+        android:fromDegrees="20"
+        android:toDegrees="-20"
+        android:pivotX="50%"
+        android:pivotY="0%"
+        android:duration="500" /> <!-- Increased to slow down -->
+
+    <!-- Rotate back to center -->
+    <rotate
+        android:fromDegrees="-20"
+        android:toDegrees="0"
+        android:pivotX="50%"
+        android:pivotY="0%"
+        android:duration="250" /> <!-- Increased to slow down -->
+</set>

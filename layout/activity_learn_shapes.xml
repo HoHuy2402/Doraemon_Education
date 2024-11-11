@@ -1,0 +1,41 @@
+<!-- activity_learn_shapes.xml -->
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="3"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/shapeCircle"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/shape_circle"
+        android:backgroundTint="@null"
+        android:text="Circle"
+        android:textSize="18sp"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/shapeSquare"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/shape_square"
+        android:text="Square"
+        android:textSize="18sp"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/shapeTriangle"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/triangle_shape"
+        android:text="Triangle"
+        android:textSize="18sp"
+        android:textColor="@android:color/black" />
+
+    <!-- You can add more shapes similarly -->
+
+</GridLayout>
